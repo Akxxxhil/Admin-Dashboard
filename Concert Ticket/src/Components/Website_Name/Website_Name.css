@@ -1,0 +1,17 @@
+
+.Title_website {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.options_navbar{
+    display: flex;
+    font-size: 25px;
+    gap: 15px;
+    margin-left: 710px;
+    margin-top: -45px;
+}
+
+    
+    
