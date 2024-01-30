@@ -1,4 +1,4 @@
-.left-Navbar{
+.left-Navbar {
     border: 2px solid black;
     border-radius: 3px;
     margin: 5px;
@@ -8,15 +8,17 @@
     font-size: 20px;
 }
 
-.left-Navbar div{
+.left-Navbar div {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     cursor: pointer;
 }
-.left-Navbar img{
+
+.left-Navbar img {
     margin-right: 10px;
 }
+
 .left-Navbar-Library {
     border: 2px solid black;
     border-radius: 3px;
@@ -25,49 +27,86 @@
     width: 230px;
     height: 80px;
     font-size: 20px;
-    display: flex;
-    white-space: nowrap; /* Prevent wrapping to a new line */
-    overflow: hidden; /* Hide any content that overflows the container */
 }
-.left-Navbar-Library div{
+
+.left-Navbar-Library .Top-row {
+    display: flex;
+}
+
+.left-Navbar-Library .Bottom-row {
+    display: flex;
+}
+
+.left-Navbar-Library .Top-row div {
     display: flex;
     align-items: center;
     cursor: pointer;
     margin-bottom: 40px;
 }
-.left-Navbar-Library img{
+
+.left-Navbar-Library img {
     margin-right: 10px;
 }
+
 .left-Navbar-Library .Library {
-    margin-right: 10px; /* Add a margin to create a gap between "Library" and "plus" */
-}
-.left-Navbar-Library .plus,
-.left-Navbar-Library .arrow-right {
-    margin-left: 10px; /* Add a margin to create a gap between "plus" and "arrow" */
+    margin-right: 10px;/
 }
 
-.left-Navbar-Library .plus:hover::after{
+.left-Navbar-Library .plus,
+.left-Navbar-Library .arrow-right {
+    margin-left: 10px;
+}
+
+.left-Navbar-Library .plus:hover::after {
     content: "Create Playlist or Folder";
     position: absolute;
     white-space: nowrap;
-    background-color: white; /* Highlight to white color on hover */
+    background-color: black;
+    color: white;
     padding: 5px;
     border-radius: 3px;
     font-size: 10px;
-    margin-left: 10px; /* Adjust the distance between the icon and tooltip */
+    margin-left: 10px;
     margin-top: -30px;
     z-index: 1;
-   
+
 }
-.left-Navbar-Library .arrow-right:hover::after{
+
+.left-Navbar-Library .arrow-right:hover::after {
     content: "Show More";
     position: absolute;
     white-space: nowrap;
-    background-color: white; /* Highlight to white color on hover */
+    background-color: black;
+    color: white;
     padding: 5px;
     border-radius: 3px;
     font-size: 10px;
-    margin-left: 10px; /* Adjust the distance between the icon and tooltip */
+    margin-left: 10px;
     margin-top: -30px;
     z-index: 1;
+}
+
+.left-Navbar-Library .Bottom-row div {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: -20px;
+
+    margin-right: 10px;
+}
+
+.left-Navbar-Library .Library:hover::after {
+    content: "Collapse your Library";
+    display: flex;
+    position: absolute;
+    margin-top: -70px;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
 }
