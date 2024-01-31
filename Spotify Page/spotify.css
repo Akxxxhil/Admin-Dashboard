@@ -110,3 +110,50 @@
     border-radius: 3px;
     margin-left: 10px;
 }
+.left-Navbar-scroll{
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px;
+    width: 230px;
+    height: 180px;
+    font-size: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 150px;
+}
+.left-Navbar-scroll-upper{
+    display: flex;
+    align-items: center;
+}
+.left-Navbar-scroll .left-Navbar-scroll-upper .SearchClass {
+    margin-right: 110px;
+}
+.left-Navbar-scroll .RecentsList{
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+.left-Navbar-scroll .left-Navbar-scroll-upper .SearchClass:hover::after{
+    content: "Search in You Library";
+    display: flex;
+    position: absolute;
+    margin-top: -50px;
+    font-size: 12px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.Right-navbar{
+    border: 2px solid black;
+    height: 388px;
+    font-size: 20px;
+    margin-left: 271px;
+    margin-top: -395px;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 500px;
+}
