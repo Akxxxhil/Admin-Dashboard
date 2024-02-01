@@ -157,3 +157,12 @@
     overflow-y: auto;
     max-height: 500px;
 }
+.Right-navbar-second{
+    display: flex;
+}
+.Right-navbar-second div{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 3px;
+}
