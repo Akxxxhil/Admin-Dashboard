@@ -188,17 +188,30 @@
 .Right-navbar .Right-navbar-first .profile-img {
     margin-left: 15px;
 }
-
-.Bottom-navbar{
-    margin-top: 200px;
-    height: 90px;
-    width: 100%;
+.bottom-navbar{
     border: 2px solid black;
+    height: 90px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.bottom-navbar .center-bottom-navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 510px;
+    gap: 10px;
+    margin-top: -20px;
+}
+.bottom-navbar .left-bottom-navbar{
+    display: flex;
+    gap: 10px;
+    margin-top: 26px;
+}
+.right-bottom-navbar{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -30px;
+    gap: 10px;
 }
 
-.btm-middle{
- 
-     
-}
 
  
