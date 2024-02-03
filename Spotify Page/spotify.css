@@ -173,12 +173,61 @@
 .Right-navbar .Right-navbar-first .Explore-Premium {
     margin-left: 640px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: white;
     color: black;
-    padding: 3px;
+    padding: 5px;
     font-size: 17px;
 }
+.Explore-Premium:hover::after {
+    content: "Upgrade to premium";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 12px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+
+.Bell-img:hover::after {
+        content: "What's New";
+        display: flex;
+        position: absolute;
+        font-size: 10px;
+        z-index: 1;
+        white-space: nowrap;
+        background-color: black;
+        color: white;
+        padding: 4px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
+    .profile-img:hover::after {
+        content: "ANSHUMAN";
+        display: flex;
+        position: absolute;
+        font-size: 10px;
+        z-index: 1;
+        white-space: nowrap;
+        background-color: black;
+        color: white;
+        padding: 3px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
+    .circle img{
+        border: 1px solid black;
+        border-radius: 100px;
+        padding: 5px;
+    }
+
 .Right-navbar .Right-navbar-first .Bell-img {
     margin-left: 15px;
 }
@@ -188,19 +237,27 @@
 .Right-navbar .Right-navbar-first .profile-img {
     margin-left: 15px;
 }
+
+.poster img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
 .bottom-navbar{
-    border: 2px solid black;
+    border: 1.5px solid black;
     height: 90px;
-    margin-top: 30px;
+    margin-top: 250px;
     border-radius: 3px;
 }
 .bottom-navbar .center-bottom-navbar{
     display: flex;
     align-items: center;
-    margin-left: 510px;
+    margin-left: 620px;
     gap: 10px;
     margin-top: -20px;
 }
+
+
 .bottom-navbar .left-bottom-navbar{
     display: flex;
     gap: 10px;
@@ -208,10 +265,74 @@
 }
 .right-bottom-navbar{
     display: flex;
-    margin-left: 1000px;
+    margin-left: 1200px;
     margin-top: -30px;
     gap: 10px;
 }
 
+.heart-icon:hover::after {
+     content: "Add to Library";
+     display: flex;
+     position: absolute;
+     font-size: 10px;
+     z-index: 1;
+     white-space: nowrap;
+     background-color: black;
+     color: white;
+     padding: 3px;
+     border-radius: 3px;
+     margin-left: 10px;
+}
+.now-playing-view:hover::after {
+    content: "Now playing view";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.Queue:hover::after {
+    content: "Add to Queue";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.Connect-device:hover::after {
+    content: "Connect to another device";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
 
- 
+.volume:hover::after {
+    content: "mute";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
