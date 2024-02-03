@@ -252,9 +252,9 @@
 .bottom-navbar .center-bottom-navbar{
     display: flex;
     align-items: center;
-    margin-left: 620px;
+    margin-left: 512px;
     gap: 10px;
-    margin-top: -20px;
+    margin-top: -59px;
 }
 
 
@@ -265,8 +265,8 @@
 }
 .right-bottom-navbar{
     display: flex;
-    margin-left: 1200px;
-    margin-top: -30px;
+    margin-left: 974px;
+    margin-top: -33px;
     gap: 10px;
 }
 
