@@ -184,7 +184,7 @@
     display: flex;
     position: absolute;
     font-size: 10px;
-    margin-top: 12px;
+    margin-top: 20px;
     z-index: 1;
     white-space: nowrap;
     background-color: black;
@@ -336,3 +336,22 @@
     border-radius: 3px;
     margin-left: 10px;
 }
+
+ .right-navbar-row{
+    margin: 5px;
+    border: 1px solid black;
+    padding:5px;
+ }
+ .songs{
+    margin: 20px;
+ }
+
+ .column1{
+    display: inline;
+ }
+ .column2{
+    display: inline;
+ }
+ .column3{
+    display: inline;
+ }
