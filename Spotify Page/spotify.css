@@ -244,9 +244,9 @@
     object-fit: cover;
 }
 .bottom-navbar{
-    border: 1.5px solid black;
+    border: 2px solid black;
     height: 90px;
-    margin-top: 250px;
+    margin-top: 7px;
     border-radius: 3px;
 }
 .bottom-navbar .center-bottom-navbar{
