@@ -1,3 +1,11 @@
+/* *{
+ background-color: #181616;
+ color: white;
+}
+div{
+    background-color: #2b2a2a;
+} */
+
 .left-Navbar {
     border: 2px solid black;
     border-radius: 3px;
@@ -110,7 +118,8 @@
     border-radius: 3px;
     margin-left: 10px;
 }
-.left-Navbar-scroll{
+
+.left-Navbar-scroll {
     border: 2px solid black;
     border-radius: 3px;
     margin: 5px;
@@ -122,18 +131,22 @@
     overflow-x: hidden;
     max-height: 150px;
 }
-.left-Navbar-scroll-upper{
+
+.left-Navbar-scroll-upper {
     display: flex;
     align-items: center;
 }
+
 .left-Navbar-scroll .left-Navbar-scroll-upper .SearchClass {
     margin-right: 110px;
 }
-.left-Navbar-scroll .RecentsList{
+
+.left-Navbar-scroll .RecentsList {
     margin-right: 10px;
     margin-bottom: 6px;
 }
-.left-Navbar-scroll .left-Navbar-scroll-upper .SearchClass:hover::after{
+
+.left-Navbar-scroll .left-Navbar-scroll-upper .SearchClass:hover::after {
     content: "Search in You Library";
     display: flex;
     position: absolute;
@@ -147,7 +160,8 @@
     border-radius: 3px;
     margin-left: 10px;
 }
-.Right-navbar{
+
+.Right-navbar {
     border: 2px solid black;
     height: 388px;
     font-size: 20px;
@@ -157,20 +171,24 @@
     overflow-y: auto;
     max-height: 500px;
 }
-.Right-navbar-second{
+
+.Right-navbar-second {
     display: flex;
     padding: 5px;
 }
-.Right-navbar-second div{
+
+.Right-navbar-second div {
     border: 1px solid black;
     border-radius: 3px;
     margin-left: 10px;
     padding: 6px;
 }
-.Right-navbar-first{
+
+.Right-navbar-first {
     display: flex;
     margin-top: 15px;
 }
+
 .Right-navbar .Right-navbar-first .Explore-Premium {
     margin-left: 640px;
     border: 2px solid black;
@@ -180,6 +198,7 @@
     padding: 6px;
     font-size: 15px;
 }
+
 .Explore-Premium:hover::after {
     content: "Upgrade to premium";
     display: flex;
@@ -196,45 +215,47 @@
 }
 
 .Bell-img:hover::after {
-        content: "What's New";
-        display: flex;
-        position: absolute;
-        font-size: 10px;
-        z-index: 1;
-        white-space: nowrap;
-        background-color: black;
-        color: white;
-        padding: 4px;
-        border-radius: 3px;
-        margin-left: 10px;
-    }
+    content: "What's New";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
 
-    .profile-img:hover::after {
-        content: "ANSHUMAN";
-        display: flex;
-        position: absolute;
-        font-size: 10px;
-        z-index: 1;
-        white-space: nowrap;
-        background-color: black;
-        color: white;
-        padding: 3px;
-        border-radius: 3px;
-        margin-left: 10px;
-    }
+.profile-img:hover::after {
+    content: "ANSHUMAN";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
 
-    .circle img{
-        border: 1px solid black;
-        border-radius: 100px;
-        padding: 5px;
-    }
+.circle img {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px;
+}
 
 .Right-navbar .Right-navbar-first .Bell-img {
     margin-left: 15px;
 }
+
 .Right-navbar .Right-navbar-first .groups-img {
     margin-left: 15px;
 }
+
 .Right-navbar .Right-navbar-first .profile-img {
     margin-left: 15px;
 }
@@ -244,13 +265,15 @@
     width: 60px;
     object-fit: cover;
 }
-.bottom-navbar{
+
+.bottom-navbar {
     border: 2px solid black;
     height: 90px;
-    margin-top: 7px;
+    margin-top: 250px;
     border-radius: 3px;
 }
-.bottom-navbar .center-bottom-navbar{
+
+.bottom-navbar .center-bottom-navbar {
     display: flex;
     align-items: center;
     margin-left: 512px;
@@ -259,12 +282,13 @@
 }
 
 
-.bottom-navbar .left-bottom-navbar{
+.bottom-navbar .left-bottom-navbar {
     display: flex;
     gap: 10px;
     margin-top: 26px;
 }
-.right-bottom-navbar{
+
+.right-bottom-navbar {
     display: flex;
     margin-left: 974px;
     margin-top: -33px;
@@ -272,18 +296,19 @@
 }
 
 .heart-icon:hover::after {
-     content: "Add to Library";
-     display: flex;
-     position: absolute;
-     font-size: 10px;
-     z-index: 1;
-     white-space: nowrap;
-     background-color: black;
-     color: white;
-     padding: 3px;
-     border-radius: 3px;
-     margin-left: 10px;
+    content: "Add to Library";
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 10px;
 }
+
 .now-playing-view:hover::after {
     content: "Now playing view";
     display: flex;
@@ -297,6 +322,7 @@
     border-radius: 3px;
     margin-left: 10px;
 }
+
 .Queue:hover::after {
     content: "Add to Queue";
     display: flex;
@@ -310,6 +336,7 @@
     border-radius: 3px;
     margin-left: 10px;
 }
+
 .Connect-device:hover::after {
     content: "Connect to another device";
     display: flex;
@@ -338,29 +365,64 @@
     margin-left: 10px;
 }
 
- .right-navbar-row{
+.right-navbar-row {
     margin: 5px;
     border: 1px solid black;
-    padding:5px;
- }
+    padding: 5px;
+}
 
- .Right-navbar-third div{
+.Right-navbar-third div {
     border: 2px solid black;
     padding: 5px;
     margin: 5px;
     width: 238px;
- }
- .Right-navbar-fourth div{
+}
+
+.Right-navbar-fourth div {
     border: 2px solid black;
     padding: 5px;
     margin: 5px;
     width: 238px;
- }
- .Right-navbar-small-cards{
-    display: flex;
- }
- .Right-navbar-five{
-    display: flex;
- }
+}
 
+.Right-navbar-small-cards {
+    display: flex;
+}
 
+.Right-navbar-five {
+    display: flex;
+    margin-left: 5px;
+}
+
+/* -------------------------------------------------- */
+
+.Right-navbar-sixth img {
+    margin: 8px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.Show-all {
+    margin-left: 920px;
+}
+
+.Right-navbar-sixth div {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    height: 225px;
+    width: 170px;
+    text-align: center;
+}
+
+.Right-navbar-sixth {
+    display: flex;
+    margin: 5px;
+    gap: 35px;
+}
+
+.Right-navbar-sixth-content {
+    display: flex;
+    flex-direction: column;
+}
