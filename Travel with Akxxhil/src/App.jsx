@@ -1,5 +1,6 @@
 import Tour from "./Components/Tour"
 import data from "./data"
+import './App.css'
 import { useState } from "react"
 function App() {
   const [tour,setTour]=useState(data)

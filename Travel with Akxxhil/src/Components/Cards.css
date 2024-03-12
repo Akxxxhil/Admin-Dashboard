@@ -1,3 +1,19 @@
 .Read-more{
     color: green;
 }
+.tour-image > img{
+    height: 200px;
+    width: 300px;
+}
+.cards-all{
+    border: 5px solid red;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.NotIntrested{
+    width: 200px;
+    margin: 10px;
+    
+}

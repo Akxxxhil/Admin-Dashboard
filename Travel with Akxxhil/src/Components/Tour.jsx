@@ -1,4 +1,4 @@
-
+import "./Tour.css"
 import Card from "./Cards"
 function Tour({tour,notIntrested}){
 return <>
@@ -8,7 +8,7 @@ return <>
 <div className="tour">
     {
         tour.map((toureach)=>{
-            return <Card {...toureach} notIntrested={notIntrested}></Card>
+            return <Card key={toureach.id} {...toureach} notIntrested={notIntrested}></Card>
         })
     }
    

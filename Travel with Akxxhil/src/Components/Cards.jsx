@@ -10,8 +10,8 @@ function Cards({ id, name, info, image, price,notIntrested }) {
     setReadMore(!readMore)
   }
   return (
-    <>
-      <div className="cards">
+    
+      <div className="cards-all">
         <div className="tour-image">
           <img src={image} alt="" />
         </div>
@@ -22,13 +22,13 @@ function Cards({ id, name, info, image, price,notIntrested }) {
         <div className="tour-details">
           {description}
           <span className="Read-more" onClick={readmorehandler}>
-            Read More
+            {readMore ? 'Show Less':`Read More`}
           </span>
         </div>
 
-        <button onClick={()=>{notIntrested(id)}}>Not Intrested</button>
+        <button className="NotIntrested" onClick={()=>{notIntrested(id)}}>Not Intrested</button>
       </div>
-    </>
+    
   );
 }
 export default Cards;
