@@ -5,7 +5,7 @@ function Pagination() {
   const { pagecount,handlePage,totalpagecount } = useContext(AppContext)
   
   return (
-    <div>
+    <div style={{display:"flex", gap:"20px"}}>
       <div>
         {
           pagecount > 1 && <button onClick={()=>handlePage(pagecount-1)}>Previous</button>

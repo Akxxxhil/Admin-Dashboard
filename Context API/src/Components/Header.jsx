@@ -5,7 +5,8 @@ function Header() {
    
       
       <header>
-        <h1>Akxxhil Blogs</h1>
+        <h1 style={{textAlign:"center",color:'yellow'}}>Akxxhil Blogs</h1>
+        <hr style={{border:"1px solid yellow"}} />
       </header>
       
     
